@@ -1,0 +1,47 @@
+2014/09/10 23:38:06 [notice] 5232#9668: using the "select" event method
+2014/09/10 23:38:06 [notice] 5232#9668: nginx/1.7.5
+2014/09/10 23:38:06 [info] 5232#9668: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2014/09/10 23:38:06 [notice] 5232#9668: start worker processes
+2014/09/10 23:38:06 [notice] 5232#9668: start worker process 10120
+2014/09/10 23:38:06 [notice] 10120#9176: nginx/1.7.5
+2014/09/10 23:38:06 [info] 10120#9176: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2014/09/10 23:38:06 [notice] 10120#9176: create thread 6480
+2014/09/10 23:38:06 [notice] 10120#9176: create thread 8688
+2014/09/10 23:38:06 [notice] 10120#9176: create thread 9120
+2014/09/10 23:38:23 [info] 10120#6480: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8000
+2014/09/10 23:38:23 [info] 10120#6480: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8000
+2014/09/10 23:38:51 [notice] 7764#8364: signal process started
+2014/09/10 23:38:51 [notice] 5232#9668: reconfiguring
+2014/09/10 23:38:51 [notice] 5232#9668: using the "select" event method
+2014/09/10 23:38:51 [notice] 5232#9668: start worker processes
+2014/09/10 23:38:51 [notice] 5232#9668: start worker process 7056
+2014/09/10 23:38:51 [notice] 7056#6792: nginx/1.7.5
+2014/09/10 23:38:51 [info] 7056#6792: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2014/09/10 23:38:51 [notice] 10120#9176: gracefully shutting down
+2014/09/10 23:38:51 [notice] 10120#8688: exiting
+2014/09/10 23:38:51 [notice] 7056#6792: create thread 8692
+2014/09/10 23:38:51 [notice] 7056#6792: create thread 9564
+2014/09/10 23:38:51 [notice] 7056#6792: create thread 5744
+2014/09/10 23:38:51 [notice] 10120#6480: exiting
+2014/09/10 23:38:51 [notice] 10120#9176: exit
+2014/09/10 23:38:52 [notice] 5232#9668: worker process 10120 exited with code 0
+2014/09/10 23:39:13 [info] 7056#8692: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8000
+2014/09/10 23:39:13 [info] 7056#8692: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8000
+2014/09/10 23:40:37 [notice] 9304#9560: signal process started
+2014/09/10 23:40:37 [notice] 5232#9668: reconfiguring
+2014/09/10 23:40:37 [notice] 5232#9668: using the "select" event method
+2014/09/10 23:40:37 [notice] 5232#9668: start worker processes
+2014/09/10 23:40:37 [notice] 5232#9668: start worker process 5964
+2014/09/10 23:40:37 [notice] 5964#8684: nginx/1.7.5
+2014/09/10 23:40:37 [info] 5964#8684: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2014/09/10 23:40:37 [notice] 7056#6792: gracefully shutting down
+2014/09/10 23:40:37 [notice] 7056#9564: exiting
+2014/09/10 23:40:37 [notice] 5964#8684: create thread 9044
+2014/09/10 23:40:37 [notice] 5964#8684: create thread 8528
+2014/09/10 23:40:37 [notice] 5964#8684: create thread 9204
+2014/09/10 23:40:37 [notice] 7056#8692: exiting
+2014/09/10 23:40:37 [notice] 7056#6792: exit
+2014/09/10 23:40:37 [notice] 5232#9668: worker process 7056 exited with code 0
+2014/09/10 23:40:43 [error] 5964#9044: *7 CreateFile() "./html/a/a" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /a HTTP/1.1", host: "localhost:8000"
+2014/09/10 23:40:53 [info] 5964#9044: *8 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8000
+2014/09/10 23:41:03 [info] 5964#9044: *9 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8000
