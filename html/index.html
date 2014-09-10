@@ -12,14 +12,20 @@
 </head>
 <body>
 <h1>Welcome to nginx!</h1>
-<p>If you see this page, the nginx web server is successfully installed and
-working. Further configuration is required.</p>
+<script type="text/javascript" src="/jwplayer/jwplayer.js"></script>
+<script type="text/javascript">jwplayer.key="Y3ov5YsCxOP6Q4wTSY9lpbUZExQl8SNrNOYggw==";</script>
 
-<p>For online documentation and support please refer to
-<a href="http://nginx.org/">nginx.org</a>.<br/>
-Commercial support is available at
-<a href="http://nginx.com/">nginx.com</a>.</p>
+<div id="myElement">Loading the player...</div>
 
-<p><em>Thank you for using nginx.</em></p>
+<script type="text/javascript">
+    jwplayer("myElement").setup({
+        //file: "/media/a.mp4",
+        //image: "/media/a.jpg"
+		file:"rtmp://192.168.31.230/live1/flv:1080",
+		height:480,
+		width:720
+    });
+</script>
+
 </body>
 </html>

@@ -17,7 +17,7 @@ http {
     keepalive_timeout  65;
 
     server {
-        listen       8000;
+        listen       8001;
         server_name  localhost;
 
 				
@@ -52,35 +52,28 @@ http {
 
 rtmp {
 	server {
-		listen 1935;
-		chunk_size 4096;
-		
-		application live1 {
-			allow publish all;
-			allow play all;
-			live on;
-			meta copy;
-			push rtmp://192.168.31.232/live1/1080;
-		}
-		application live2 {
-			allow publish 192.168.31.0/24;
-			deny publish all;
-			allow play 192.168.31.0/24;
-			deny play all;
-			live on;
-			meta copy;
-			push rtmp://192.168.31.232/live2/test;
-		}
-		application live3 {
-			allow publish 192.168.31.0/24;
-			deny publish all;
-			allow play 192.168.31.0/24;
-			deny play all;
-			live on;
-			meta copy;
-			record all;
-			record_suffix -%Y-%m-%d-%H%M.flv;
-			record_path html/media/record;
-		}
+	listen 1935;
+	chunk_size 4096;
+	
+	application live1 {
+		allow publish 192.168.31.0/24;
+		deny publish all;
+		allow play 192.168.31.0/24;
+		deny play all;
+		live on;
+		meta copy;
+		record all;
+		record_suffix -%Y-%m-%d-%H%M.flv;
+		record_path html/media/record;
+	}
+	application live2 {
+		allow publish 192.168.31.0/24;
+		deny publish all;
+		allow play 192.168.31.0/24;
+		deny play all;
+		live on;
+		meta copy;
+		push rtmp://192.168.31.230/live3/1080;
+	}
 	}
 }
