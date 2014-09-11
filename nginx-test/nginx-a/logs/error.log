@@ -1,0 +1,3 @@
+2014/09/12 00:42:29 [emerg] 2764#10560: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2014/09/12 00:56:20 [error] 1128#11460: *1 CreateFile() "./html/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.31.230, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.31.230:83"
+2014/09/12 01:02:19 [error] 1128#11460: *10 access forbidden by rule, client: 192.168.31.230, server: 0.0.0.0:1935

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to nginx!</title>
+<style>
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+</style>
+</head>
+<body>
+<h1>Welcome to nginx!</h1>
+<script type="text/javascript" src="/jwplayer/jwplayer.js"></script>
+<script type="text/javascript">jwplayer.key="Y3ov5YsCxOP6Q4wTSY9lpbUZExQl8SNrNOYggw==";</script>
+
+<div id="myElement">Loading the player...</div>
+
+<script type="text/javascript">
+    jwplayer("myElement").setup({
+		//连到live2上播放对方(192.168.31.232)推来的视频
+		file:"rtmp://192.168.31.232/live2/flv:test",
+		height:480,
+		width:720
+    });
+</script>
+
+</body>
+</html>
