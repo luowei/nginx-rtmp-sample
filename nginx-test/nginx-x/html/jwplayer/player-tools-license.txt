@@ -1,0 +1,7 @@
+Player Tools
+
+Cloud-Hosted Player Code
+<script src="http://jwpsrv.com/library/Y8ikKi9KEeStYCIAC0MJiQ.js"></script>
+
+Self-Hosted Player License Key
+Y3ov5YsCxOP6Q4wTSY9lpbUZExQl8SNrNOYggw==
