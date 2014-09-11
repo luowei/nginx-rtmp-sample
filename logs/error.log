@@ -45,3 +45,12 @@
 2014/09/10 23:40:43 [error] 5964#9044: *7 CreateFile() "./html/a/a" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /a HTTP/1.1", host: "localhost:8000"
 2014/09/10 23:40:53 [info] 5964#9044: *8 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8000
 2014/09/10 23:41:03 [info] 5964#9044: *9 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8000
+2014/09/11 12:08:22 [notice] 9724#10680: signal process started
+2014/09/11 13:30:37 [notice] 3560#3556: signal process started
+2014/09/11 14:16:22 [emerg] 9388#8336: unexpected "}" in ./conf/nginx.conf:87
+2014/09/11 14:58:21 [emerg] 7148#7212: CreateDirectory() "/html/media/hls" failed (3: The system cannot find the path specified)
+2014/09/11 14:58:54 [emerg] 5740#5800: CreateDirectory() "/html/media/hls" failed (3: The system cannot find the path specified)
+2014/09/11 15:00:04 [emerg] 8752#5740: CreateDirectory() "/html/media/hls" failed (3: The system cannot find the path specified)
+2014/09/11 15:08:34 [emerg] 6172#10016: CreateDirectory() "/html/media/hls" failed (3: The system cannot find the path specified)
+2014/09/11 15:08:47 [emerg] 8684#8516: CreateDirectory() "/html/media/hls" failed (3: The system cannot find the path specified)
+2014/09/11 15:24:18 [notice] 8652#10012: signal process started
