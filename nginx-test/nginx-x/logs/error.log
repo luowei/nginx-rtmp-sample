@@ -2,3 +2,6 @@
 2014/09/12 00:57:21 [error] 10788#11244: *6 CreateFile() "./html/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.31.230, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.31.230:84"
 2014/09/12 01:09:59 [error] 10964#8188: *10 CreateFile() "./html/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.31.232, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.31.232:84"
 2014/09/12 01:44:47 [error] 10144#3520: *1 CreateFile() "./html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:85"
+2014/09/12 17:11:59 [emerg] 6428#10268: CreateDirectory() "./temp/client_body_temp" failed (3: The system cannot find the path specified)
+2014/09/12 17:13:09 [emerg] 11184#10372: CreateDirectory() "E:\developer\nginx-rtmp\nginx-rtmp-sample\nginx-test\nginx-x/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2014/09/12 17:14:41 [error] 11200#3140: *1 CreateFile() "./html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:85"

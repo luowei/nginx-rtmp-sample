@@ -6,7 +6,7 @@ REM 每个进程处理的最大请求数，或设置为 Windows 环境变量
 rem set PHP_FCGI_MAX_REQUESTS=1000
 
 rem echo Starting PHP FastCGI...
-rem RunHiddenConsole ../php5.5.11/php-cgi.exe -b 127.0.0.1:9000 -c ../php5.5.11/php.ini
+rem RunHiddenConsole ../php5.6.0/php-cgi.exe -b 127.0.0.1:9000 -c ../php5.6.0/php.ini
 
 echo Starting nginx...
 RunHiddenConsole ./nginx-rtmp.exe -p ./
