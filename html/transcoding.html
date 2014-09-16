@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Transcoding Stream !</title>
+<style>
+
+	<!-- 
+		div{float:left}
+		.div-inline{ display:inline}
+		div{ display:inline} 
+	-->
+	
+</style>
+</head>
+<body>
+<h1>Transcoding Stream !</h1>
+<script type="text/javascript" src="/jwplayer/jwplayer.js"></script>
+<script type="text/javascript">jwplayer.key="Y3ov5YsCxOP6Q4wTSY9lpbUZExQl8SNrNOYggw==";</script>
+
+<div style="width:1120px;height:320px;overflow:auto;display:inline">
+	<div style="width:360px;height:400px;margin:10px;float:left" id="myElement">Loading the player...</div>
+	<div style="width:360px;height:400px;margin:10px;float:left" id="myElement2">Loading the player...</div>
+	<div style="width:360px;height:400px;margin:10px;float:left" id="myElement3">Loading the player...</div>
+</div>
+<script type="text/javascript">
+    jwplayer("myElement").setup({
+		file:"rtmp://127.0.0.1/live1/flv:1080",
+		height:240,
+		width:360
+    });
+	jwplayer("myElement2").setup({
+		file:"rtmp://127.0.0.1/live2/flv:720",
+		height:240,
+		width:360
+    });
+	jwplayer("myElement3").setup({
+		file:"rtmp://127.0.0.1/live3/flv:480",
+		height:240,
+		width:360
+    });
+</script>
+
+</body>
+</html>
