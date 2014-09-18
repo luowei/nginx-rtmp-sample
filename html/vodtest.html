@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Vod Example</title>
+
+</head>
+<body>
+<h1>Vod Example!</h1>
+<!--
+<script type="text/javascript" src="/jwplayer/jwplayer.js"></script>
+<script type="text/javascript">jwplayer.key="Y3ov5YsCxOP6Q4wTSY9lpbUZExQl8SNrNOYggw==";</script>
+
+<script src="http://jwpsrv.com/library/Y3ov5YsCxOP6Q4wTSY9lpbUZExQl8SNrNOYggw==.js" ></script>
+
+jwplayer quickstart reference: http://support.jwplayer.com/customer/portal/articles/1499103-quickstart-reference
+ 
+Using RTMP Streaming: http://support.jwplayer.com/customer/portal/articles/1430358-using-rtmp-streaming
+ 
+publish video:  https://account.jwplayer.com/#/publish/select/internet
+
+
+-->
+<script src="http://jwpsrv.com/library/Y8ikKi9KEeStYCIAC0MJiQ.js"></script>
+
+<div id="myElement">Loading the player...</div>
+
+<script type="text/javascript">
+    jwplayer("myElement").setup({
+        height:360,
+		width:960,
+		stretching: "fill",
+        autostart: true,
+		listbar:{
+			position:'right',
+			size:320
+		},
+		playlist:[{
+			image:"img/a.jpg",
+			file:"rtmp://127.0.0.1/vod/flv:a.flv",
+			title:"video test 1"
+		},
+		{
+			image:"img/b.jpg",
+			file:"rtmp://127.0.0.1/vod/flv:b.flv",
+			title:"video test 2"
+		},
+		{
+			image:"img/c.jpg",
+			file:"rtmp://127.0.0.1/vod/mp4:a.mp4",
+			title:"video test 3"
+		},
+		{
+			image:"img/c.jpg",
+			file:"rtmp://127.0.0.1/vod/mp3:a.mp3",
+			title:"video test mp3"
+		}]
+		
+    });
+</script>
+
+</body>
+</html>
