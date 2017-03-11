@@ -1,8 +1,12 @@
 nginx-rtmp-sample
 =================
 
-在windows下编译的带rtmp的nginx的配置实例..
+linux/unix下配置比较容易，相信大家做起来应该比较顺利，再加上网上资料也非常多，而windows下配置会面临更多的问题，所以这里主要在windows下编译的带rtmp的nginx的配置实例..
 
+具体配置搭建过程，也可以参考视频教程操作：
+[apache+php与nginx+php环境的搭建](http://www.tudou.com/listplay/jGOJ31wJFck/zLXd5x6Yyy8.html)
+[nginx_rtmp在windows下编译及点播,直播,服务端录制的配置](http://www.tudou.com/listplay/jGOJ31wJFck/w-oyi3XnKe0.html)
+[ffmpeg+jwplay+nginx负载均衡配置](http://www.tudou.com/listplay/jGOJ31wJFck/W4gXkEeFoiw.html)
 
 ###Transcoding streams
 
